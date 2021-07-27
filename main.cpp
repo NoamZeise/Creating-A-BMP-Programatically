@@ -491,7 +491,7 @@ int main()
 	std::string name = "";
 	std::cin >> name;
 	name += ".bmp";
-	bmp.saveImage("img.bmp");
+	bmp.saveImage(name.c_str());
 
 	return 0;
 }
